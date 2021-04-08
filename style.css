@@ -565,3 +565,150 @@ body.dark .col-md-2 {
 body.dark .end-line p {
   color: aliceblue;
 }
+
+/* media part */
+
+@media (max-width: 990px) {
+  .btn {
+    padding: 0.4rem 0rem;
+    margin: 0.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .box {
+    background-color: rgb(16, 16, 41);
+  }
+  .mode-button {
+    margin-left: 9rem;
+    margin-top: -1.5rem;
+  }
+  .fa-moon {
+    margin-top: -4rem;
+    margin-left: 19rem;
+  }
+  .mode-button-day {
+    margin: 0rem 8.5rem;
+    margin-top: -2rem;
+  }
+  .fa-sun {
+    margin-top: -4rem;
+    margin-left: 19rem;
+  }
+  .h-text h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    left: 6rem;
+    top: 7rem;
+  }
+  .h-form i {
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+  input[type="submit"] {
+    width: 30%;
+    padding: 0.1rem 0.1rem;
+    margin: 2rem 11.5rem;
+  }
+  .h-form {
+    padding: 0rem 2rem;
+    width: 80%;
+    height: 60%;
+    margin-left: 2.5rem;
+    margin-top: 187rem;
+    overflow: hidden;
+  }
+  input[type="submit"] {
+    margin: 1rem 5rem;
+  }
+  #carouselExampleControls {
+    margin: 0rem -5rem;
+    width: 121%;
+    background-color: black;
+    padding: 0.5rem 1.5rem;
+    overflow: hidden;
+  }
+  .card {
+    display: flex;
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+  .card-title {
+    text-align: center;
+    top: 17rem;
+    color: aliceblue;
+    padding: 0.7rem 1.9rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .card-text {
+    top: 23rem;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 0.7rem 0.9rem;
+    text-align: center;
+  }
+  .btn-card {
+    width: 40%;
+    font-size: 0.7rem;
+    margin: 0rem 6.5rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .btn-card:hover {
+    background-color: rgb(233, 200, 15);
+  }
+  .card-image {
+    width: 100%;
+  }
+  .services {
+    margin: 1rem 6rem;
+    display: inline-block;
+  }
+  .services-2 {
+    margin: -1rem 5.5rem;
+    display: inline-block;
+  }
+  .service-block {
+    background-color: rgb(8, 8, 12);
+  }
+  .service-heading {
+    margin-top: 15rem;
+    font-size: 3rem;
+  }
+  .s-box {
+    margin: 1rem 0rem;
+  }
+  .s-box-2 {
+    margin: 1rem 0rem;
+  }
+  .s-box-3 {
+    margin: 1rem 0rem;
+  }
+  .s-box-4 {
+    margin: 1rem 0rem;
+  }
+  .card-2-img {
+    width: 100%;
+    margin: 1rem 0rem;
+    border: rgb(233, 200, 15) solid 5px;
+    border-radius: 50%;
+  }
+  .offer-section {
+    margin-top: 35rem;
+    background-color: rgb(16, 16, 41);
+  }
+  .about {
+    margin-top: 0rem;
+    text-align: center;
+  }
+  .btn-offer {
+    margin: 0rem 7rem;
+  }
+  #bright {
+    text-align: center;
+    background-color: rgb(233, 200, 15);
+    border-radius: 0%;
+    box-shadow: 5px 8px 5px black;
+  }
+  #bright-2 {
+    text-align: center;
+  }
+}
