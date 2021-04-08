@@ -487,7 +487,17 @@ input[type="submit"]:hover {
   font-size: 1rem;
   padding: 1.5rem 2rem;
 }
-
+/* end line */
+.end-line {
+  background-color: rgb(8, 8, 12);
+  text-align: center;
+  margin: 2rem 0rem;
+  padding: 0.5rem 0rem;
+  margin-bottom: -1rem;
+}
+.end-line p {
+  color: aliceblue;
+}
 /* j.s toggle section  */
 
 body.dark {
@@ -551,4 +561,7 @@ body.dark #bright-2 {
 }
 body.dark .col-md-2 {
   color: rgb(8, 8, 12);
+}
+body.dark .end-line p {
+  color: aliceblue;
 }
