@@ -51,3 +51,68 @@ body {
 .btn-sign-in:hover {
   background-color: #1fa726;
 }
+/* night button section */
+
+input[type="checkbox"] {
+  position: relative;
+  margin-top: 0.5rem;
+  width: 2.5rem;
+  margin-left: 0.7rem;
+  height: 1.3rem;
+  -webkit-appearance: none;
+  background-color: #1fa726;
+  outline: none;
+  border-radius: 20%;
+  transition: 1s;
+  box-shadow: inset 0 0 5px rgbn(0, 0, 0, 2);
+}
+input:checked[type="checkbox"] {
+  background: gray;
+  border: white solid 1px;
+}
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 40%;
+  top: 0;
+  right: 0;
+  background: white;
+  transition: 1s;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0.2);
+}
+input:checked[type="checkbox"]::before {
+  right: 1.1rem;
+}
+.mode-button {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-left: -0rem;
+  margin-right: 1rem;
+  opacity: 0%;
+  z-index: 0.8rem;
+  transition: 2s;
+}
+.fa-moon {
+  font-size: 1.5rem;
+  color: antiquewhite;
+  opacity: 0%;
+  margin: -1.5rem;
+  transition: 2s;
+}
+.mode-button-day {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-left: -3rem;
+  margin-right: 1rem;
+  opacity: 100%;
+  transition: 2s;
+}
+.fa-sun {
+  font-size: 1.5rem;
+  margin: -1.5rem;
+  color: yellow;
+  transition: 2s;
+}
