@@ -487,3 +487,56 @@ input[type="submit"]:hover {
   font-size: 1rem;
   padding: 1.5rem 2rem;
 }
+
+/* j.s toggle section  */
+
+body.dark {
+  background-color: rgb(233, 233, 233);
+  color: rgb(16, 16, 41);
+  transition: 2s;
+}
+body.dark .fa-moon {
+  font-size: 1.5rem;
+  color: antiquewhite;
+  opacity: 100%;
+}
+body.dark .fa-sun {
+  font-size: 1.5rem;
+  margin: -1.5rem;
+  color: yellow;
+  opacity: 0%;
+}
+body.dark .image-main {
+  opacity: 100%;
+}
+
+body.dark .h-form {
+  opacity: 95%;
+}
+body.dark .s-box {
+  opacity: 100%;
+}
+body.dark .s-box-2 {
+  opacity: 100%;
+}
+body.dark .s-box-3 {
+  opacity: 100%;
+}
+body.dark .s-box-4 {
+  opacity: 100%;
+}
+body.dark .s-box-5 {
+  opacity: 100%;
+}
+body.dark .about {
+  color: black;
+}
+body.dark .card-image {
+  border: rgb(16, 16, 41) solid 4px;
+}
+body.dark .mode-button {
+  opacity: 100%;
+}
+body.dark .mode-button-day {
+  opacity: 0%;
+}
