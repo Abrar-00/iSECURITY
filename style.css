@@ -431,3 +431,26 @@ input[type="submit"]:hover {
   margin-bottom: -2rem;
   margin-top: 2rem;
 }
+.offer-section {
+  margin: 2rem 0rem;
+  background-color: rgb(16, 16, 41);
+}
+.card-2-img {
+  margin: 6rem 2rem;
+  border: rgb(233, 200, 15) solid 5px;
+  border-radius: 50%;
+}
+.about {
+  margin-top: 9rem;
+  color: aliceblue;
+}
+.btn-offer {
+  width: 30%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: rgb(233, 200, 15);
+  color: black;
+}
+.btn-offer:hover {
+  background-color: rgb(233, 200, 15);
+}
