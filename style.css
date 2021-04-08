@@ -431,6 +431,9 @@ input[type="submit"]:hover {
   margin-bottom: -2rem;
   margin-top: 2rem;
 }
+
+/* offer section */
+
 .offer-section {
   margin: 2rem 0rem;
   background-color: rgb(16, 16, 41);
@@ -453,4 +456,34 @@ input[type="submit"]:hover {
 }
 .btn-offer:hover {
   background-color: rgb(233, 200, 15);
+}
+
+/* contact information section */
+
+#bright i {
+  font-size: 3.5rem;
+  padding: 2rem 6.5rem;
+}
+
+#bright {
+  background-color: rgb(233, 200, 15);
+  border-radius: 3%;
+  box-shadow: 5px 8px 5px black;
+}
+
+.hd {
+  padding: 1rem 1rem;
+}
+#bright-2 {
+  color: aliceblue;
+  font-size: 1.1rem;
+  padding: 1.5rem 2rem;
+}
+#bright-2 i {
+  font-size: 2rem;
+}
+.col-md-2 {
+  color: aliceblue;
+  font-size: 1rem;
+  padding: 1.5rem 2rem;
 }
