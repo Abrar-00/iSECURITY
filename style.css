@@ -194,3 +194,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+/* headline slide */
+
+#carouselExampleControls {
+  margin: 0rem 0rem;
+  background-color: black;
+  padding: 0.3rem 1.5rem;
+}
+.slider-text {
+  padding: 0rem 4rem;
+  font-size: 0.9rem;
+  color: antiquewhite;
+}
