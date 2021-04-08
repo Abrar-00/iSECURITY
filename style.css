@@ -540,3 +540,15 @@ body.dark .mode-button {
 body.dark .mode-button-day {
   opacity: 0%;
 }
+body.dark .service-heading {
+  color: black;
+}
+body.dark .offer-section {
+  background-color: rgb(233, 233, 233);
+}
+body.dark #bright-2 {
+  color: rgb(8, 8, 12);
+}
+body.dark .col-md-2 {
+  color: rgb(8, 8, 12);
+}
