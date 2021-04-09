@@ -98,7 +98,7 @@ input:checked[type="checkbox"]::before {
 .fa-moon {
   font-size: 1.5rem;
   color: antiquewhite;
-  opacity: 0%;
+  opacity: 100%;
   margin: -1.5rem;
   transition: 2s;
 }
@@ -111,6 +111,7 @@ input:checked[type="checkbox"]::before {
   transition: 2s;
 }
 .fa-sun {
+  opacity: 0%;
   font-size: 1.5rem;
   margin: -1.5rem;
   color: yellow;
@@ -508,13 +509,13 @@ body.dark {
 body.dark .fa-moon {
   font-size: 1.5rem;
   color: antiquewhite;
-  opacity: 100%;
+  opacity: 0%;
 }
 body.dark .fa-sun {
   font-size: 1.5rem;
-  margin: -1.5rem;
+  margin: -2rem;
   color: yellow;
-  opacity: 0%;
+  opacity: 100%;
 }
 body.dark .image-main {
   opacity: 100%;
