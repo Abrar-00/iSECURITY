@@ -513,7 +513,7 @@ body.dark .fa-moon {
 }
 body.dark .fa-sun {
   font-size: 1.5rem;
-  margin: -2rem;
+  margin-left: 19rem;
   color: yellow;
   opacity: 100%;
 }
