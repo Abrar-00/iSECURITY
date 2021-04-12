@@ -712,3 +712,14 @@ body.dark .end-line p {
     text-align: center;
   }
 }
+
+@media (max-width: 360px) {
+  .h-form {
+    padding: 0rem 2rem;
+    width: 80%;
+    height: 62%;
+    margin-left: 2.5rem;
+    margin-top: 187rem;
+    overflow: hidden;
+  }
+}
